@@ -6,7 +6,7 @@ authors = ["Amine Chikhaoui <amine.chikhaoui91@gmail.com>"]
 license = "LGPL-3.0-only"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.9, <3.11"
 nixops = {git = "https://github.com/rdparker/nixops.git", rev = "master"}
 
 [tool.poetry.dev-dependencies]
